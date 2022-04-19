@@ -1,0 +1,142 @@
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: sans-serif;
+    }
+    
+    body {
+        overflow-x: hidden;
+        font-size: 13px;
+    }
+    
+    .left {
+        position: fixed;
+        width: 160px;
+        height: 100vh;
+        background: #6a5c5c;
+        border-top-left-radius: 20px;
+        overflow: hidden;
+    }
+    
+    ul {
+        width: 100%;
+    }
+    
+    ul li {
+        position: relative;
+        width: 100%;
+        list-style: none;
+        margin-top: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    ul li a {
+        position: relative;
+        display: block;
+        width: 100%;
+        display: flex;
+        text-decoration: none;
+        color: #fff;
+    }
+    
+    ul li:hover {
+        /* color: green; */
+        /* background-color: rgba(0, 0, 255, 0.705); */
+        cursor: pointer;
+    }
+    
+    ul li a .icon {
+        position: relative;
+        display: block;
+        width: 50px;
+        height: 30px;
+        text-align: center;
+        /* margin: 10px; */
+        /* line-height: 60px; */
+    }
+    
+    ul li a .icon .bx {
+        font-size: 20px;
+    }
+    
+    ul li a .icon .tilte {
+        position: relative;
+        display: block;
+        padding: 0 10px;
+        width: 50px;
+        height: 30px;
+        white-space: nowrap;
+    }
+    
+    img {
+        height: 40px;
+        width: 40px;
+        border-radius: 50%;
+        margin-left: 20px;
+        margin-top: 30px;
+        cursor: pointer;
+    }
+    
+    .one,
+    p {
+        color: #fff;
+    }
+    
+    .one {
+        margin-left: 20px;
+        line-height: 10px;
+        font-size: large;
+        margin-bottom: 4px;
+        margin-top: 5px;
+    }
+    
+    p {
+        font-size: 10px;
+        margin-left: 20px;
+        margin-bottom: 30px;
+    }
+    
+    .hr {
+        display: flex;
+        justify-content: center;
+    }
+    
+    hr {
+        width: 80%;
+        text-align: center;
+        margin: 20px 0;
+    }
+    
+    .icons {
+        display: flex;
+        justify-content: center;
+        font-size: 24px;
+    }
+    
+    .bi {
+        color: rgb(39, 151, 48);
+        cursor: pointer;
+        margin: 3px;
+    }
+    
+    footer {
+        display: flex;
+        justify-content: center;
+    }
+    
+    .feedback {
+        margin-bottom: 40px;
+    }
+    
+    button {
+        width: 80%;
+        height: 30px;
+        background: rgb(39, 151, 48);
+        border: none;
+        border-radius: 8px;
+        cursor: pointer;
+        font-size: 13px;
+    }
